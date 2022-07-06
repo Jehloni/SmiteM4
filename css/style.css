@@ -107,57 +107,32 @@ p{
     opacity: 70; 
     margin: 40px 0 0 0;
 }
-#cabrakan {
+
+table {
+        width: 700px;
+    
+  }
+table, th, td {
+        border:1px solid rgb(239, 220, 220);
+
+}
+
+/* #cabrakan{
     text-align: center;
     margin: 0 20px 0 20px;
   width: 50px;
   height: 50px;
 }
 
-#vamana {
+#vamana{
     text-align: center;
     margin: 0 40px 0 40px;
   width: 50px;
-  height: 50px;
+  height: 50px; */
+/* } */
 
 
-}
 
-
-#Container {
-    position: relative;
-    width: 700px;
-    height:600px;
-    background-color: black;
-    border: 1px solid #c4ac7e;
-    border-top: none;
-    border-bottom: none;
-    margin-top: 100px;
-    z-index: 0px;
- }
-#v-meter {
-    position: relative;
-    top: 0%;
-    left: -30px;
-    width: 700px;
-    height: 500px;
-    z-index: 100;
-}
-
-#v-meter li{
-    position: relative;
-    left: -11px;
-    height: 100px;
-    border-bottom: solid 1px #c4ac7e;
-}
-
-#v-meter li::before
-    content: '';
-    position: absolute;
-    top: -15px;
-    left: -30px;
-    height: 100px;
-    border-bottom: solid 1px
     
 
 

@@ -8,39 +8,84 @@
     </head>
 <!--     this is where i will be placing all of the updates on gods and items and i want to show a bar grpah of the most used gods in the game but having difficulty making the graph -->
     <body>
-        <h1></h1><br>
-        <section id="navigation">
-            <a href="index.html">Home</a>
-            <a href="godspage.html">Gods</a>
-            <a href="updates.html">Updates</a>
-            <a href="shop.html">Shop</a>
-            <a href="signinforum.html">Forum</a>
-        </section> 
-        <section>
-        <div class="container">
-            <div class="bar one"></div>
-            <div class="bar two"></div>
-            <div class="bar three"></div>
-            <div class="bar four"></div>
-            <div class="bar five"></div>
-        </div>
-    </section>
-    <section>
-        <ul class="v-meter">
-            <li><div>Solo</div></li>
-            <li><div>Mid</div></li>
-            <li><div>Support</div></li>
-            <li><div>Carry</div></li>
-            <li><div>Jungle</div></li>
-    </section>
-<!--         making the graph for each role in conquest -->
+        <h1>Updates</h1>
+            <section id="navigation">
+                <a href="index.html">Home</a>
+                <a href="godspage.html">Gods</a>
+                <a href="updates.html">Updates</a>
+                <a href="shop.html">Shop</a>
+                <a href="signinforum.html">Forum</a>
+            </section> 
+        
+
         <section>
 <!--             telling each god/item that was nerfed or buffed -->
-            <h2> Lancelot</h2>
-        <p>PIERCING THRUST Decreased Base Damage per hit from 60/105/150/195/240 to 50/90/130/170/210
-SKILLED STRIKES
-Decreased Lance Damage (2nd swing) from 70/120/170/220/270 to 70/110/150/190/230</p>
+        <h4> Lancelot</h4>
+           <section>
+            <ul>
+                <img src:"camelots-quest.webp" alt="First Ability"
+                    <li>CAMELOT’S QUEST</li>
+                    <li>Lancelot receives 1 Stack for a god kill/assist and 1 Stack for every 5 minion kills (max. 60 Stacks).</li>
+                    <li>While Mounted, each stack provides increased Movement Speed.</li>
+                    <li>While Unmounted, each stack provides reduced basic attack damage received from directly in front.</li>
+                    <li>Movement Speed : 0.2% per stack</li>
+                    <li>Basic Attack Damage Reduction: 0.2% per stack</li>
+            </ul>
+        </section>
+        <section>
+            <ul>
+                 <li>PIERCING THRUST</li>
+                <li> Decreased Base Damage per hit from 60/105/150/195/240 to 50/90/130/170/210
+                SKILLED STRIKES</li>
+                 <li>Decreased Lance Damage (2nd swing) from 70/120/170/220/270 to 70/110/150/190/230</li>
+                <li>Cost : 50/55/60/65/70</li>
+                <li>Cooldown : 12s</li>
+            </ul>
+        </section>
+     
+        <section>
+            <ul>
+                <li>SKILLED STRIKES</li>
+                <li>Lancelot slams his shield into enemies in a small area in front of him, dealing damage and knocking them back. He follows up this attack with a sweep of his lance dealing damage again and bonus damage to enemies that are further away.</li>
+                <li>Shield Damage : 50/80/110/140/170 (+45% of your physical power)</li>
+                <li>Lance Damage : 70/120/170/220/270 (+90% of your physical power)</li>
+                <li>Bonus Damage : 15%</li>
+                <li>Cost : 60/65/70/75/80</li>
+                <li>Cooldown : 14s</li>
+            </ul>
+            <ul>
+                <li>MOUNT UP</li>
+                <li> mounts onto his trusty steed charging forwards with increased movement speed. While on his horse Lancelot gains a Health Shield that builds over time and his abilities change.</li>
+                <li>Movement Speed : 20%</li>
+                <li>Initial Health Shield : 60/80/100/120/140</li>
+                <li>Max. Health Shield : 180/320/460/600/740 gained over 4s.</li> 
+                <li>Cost : 30/35/40/45/50</li>
+                <li>Cooldown : 14s</li>
+            </ul>
+        </section>
+        <section>
+            <ul>
+                <li>SHINING GALLOP</li>
+                <li>Lancelot sends off his horse to gallop ahead in a line as he dismounts. The horse fades away allowing it to pass through walls, dealing damage and slowing enemies hit along the way.</li>
+                <li>Damage : 80/130/180/230/280 (+70% of your physical power)</li>
+                <li>Slow : 30% for 2s</li>
+                <li>Cost : 60</li>
+                <li>Cooldown : 0s</li>
+                    </li>
+            </ul>
+        </section>
+        <section>
+            <ul>
+                <li>CRASHING DIVE</li>
+                    <li>Lancelot surges upwards off his horse, rooting all enemies nearby, before diving back down to deal damage to enemies in a larger area.</li>
+                    <li>Root Duration : 0.5s</li>
+                    <li>Damage : 90/145/200/255/310 (+90% of your physical power)</li>
+                    <li>Cost : 60</li>
+                    <li>Cooldown : 0s</li>
+            </ul>
+        </section>
             
+
         </section>
         
         <script src="script.js"></script>
