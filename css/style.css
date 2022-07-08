@@ -8,12 +8,12 @@ font-family: 'Ruslan Display', cursive; */
 /* background color  */
 body {
     color: #c4ac7e;
+    background-image: ("pics/two-open-hands-vector-round-frame-linear-style-black-background_53876-116796.jpg");
     background-color: #2e2e30;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: center;
 }
-
 a {
     text-align: center;
     color: #c4ac7e;
@@ -108,13 +108,42 @@ p{
     margin: 40px 0 0 0;
 }
 
-table {
-        width: 700px;
-    
-  }
-table, th, td {
-        border:1px solid rgb(239, 220, 220);
+table, th, tr, td {
+    width: 700px;
+    border: 2px solid rgb(239, 220, 220);
+    margin: 20px auto 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-collapse: collapse;
+}
 
+th {
+    font-size: 35px;
+}
+
+td {
+    margin: 10px;
+}
+
+tr {
+    font-size: 20px;
+}
+
+.highlight {
+    background-color: pink;
+    color: brown;
+}
+
+
+
+
+
+
+#signup {
+    text-align: center;
+    font-size: 30px;
+    color: #c4ac7e;
+    text-shadow: 2px 2px #a68e63;
 }
 
 /* #cabrakan{
